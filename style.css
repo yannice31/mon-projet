@@ -27,12 +27,12 @@ header {
   position: relative;
 }
 
-.Bienvenues h1 {
+.Bienvenues h3 {
   position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #FFA500;
+  color: #f0c040;
   text-align: center;
 }
 
