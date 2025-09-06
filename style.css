@@ -260,7 +260,7 @@ section.welcome {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.2);
     text-align: center;
     flex-direction: column;
     max-height: 0;
