@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Hamburger avec Images</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Mon Site</h1>
+    <div class="hamburger" id="hamburger">&#9776;</div>
+    <nav class="nav-links" id="nav-links">
+      <a href="#home">Accueil</a>
+      <a href="#galerie1">Galerie 1</a>
+      <a href="#galerie2">Galerie 2</a>
+    </nav>
+  </header>
+   
+  <!-- Section accueil -->
+  <section id="home">
+    <h2>Accueil</h2>
+    <p>Bienvenue sur notre site !</p>
+  </section>
+
+  <!-- Section galerie 1 -->
+  <section id="galerie1" class="hidden">
+    <h2>Galerie 1</h2>
+    <div class="gallery">
+      <img src="img1.jpg" alt="Image 1">
+      <img src="img2.jpg" alt="Image 2">
+      <img src="img3.jpg" alt="Image 3">
+      <img src="img4.jpg" alt="Image 4">
+    </div>
+  </section>
+
+  <!-- Section galerie 2 -->
+  <section id="galerie2" class="hidden">
+    <h2>Galerie 2</h2>
+    <div class="gallery">
+      <img src="img5.jpg" alt="Image 5">
+      <img src="img6.jpg" alt="Image 6">
+      <img src="img7.jpg" alt="Image 7">
+      <img src="img8.jpg" alt="Image 8">
+    </div>
+  </section>
+
+  <!-- Scripts séparés -->
+  <script src="script-menu.js"></script>
+  <script src="script-sections.js"></script>
+</body>
+</html>

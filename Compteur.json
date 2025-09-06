@@ -1,0 +1,19 @@
+{
+  "totalCommandes": 0,
+  "historique": [
+    {
+      "date": "2025-09-05T14:30:00Z",
+      "nom": "Jean Dupont",
+      "produit": "Chaise",
+      "quantite": 2,
+      "details": "Couleur noire"
+    },
+    {
+      "date": "2025-09-05T15:10:00Z",
+      "nom": "Awa Traoré",
+      "produit": "Pouf",
+      "quantite": 1,
+      "details": "Tissu rouge"
+    }
+  ]
+}

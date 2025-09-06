@@ -1,0 +1,326 @@
+/* Import police Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+/* Reset global */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Abril Fatface', cursive;
+  line-height: 1.6;
+  color: #333;
+  background: #fff;
+}
+
+/* ---------- HEADER ---------- */
+header {
+  height: 50vh;
+  width: 100%;
+  background-image: url("logos.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.Bienvenues h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f0c040;
+  text-align: center;
+}
+
+/* ---------- NAVBAR ---------- */
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.navlinks ul {
+  display: flex;
+  gap: 10px;
+}
+
+.navlinks ul li a {
+  color: black;
+  transition: color 0.3s;
+}
+
+.navlinks ul li a:hover {
+  color: #f0c040;
+}
+
+/* Menu hamburger */
+.menu-hamburger {
+  display: none;
+  font-size: 28px;
+  color: black;
+  margin-left: auto;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+/* ---------- SECTIONS ---------- */
+section {
+  padding: 40px 20px;
+}
+
+section.welcome {
+  background-image: url("logo1.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome h3 {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+.welcome p{
+  background-color:  #90ee90;
+}
+/* : #228b22 et  #90EE90*/
+/* À propos */
+.flash {
+  padding: 20px;
+  min-height: 60vh;
+  background-image: url("ca.jpeg"); /* pas d’accent */
+  background-size: cover;
+  background-position: center;
+  color: #fff9c4;
+}
+
+.h2, .h3 {
+  color: #f0c040;
+  margin-bottom: 10px;
+}
+
+.void {
+  margin-top: 40px;
+}
+
+/* ---------- GRILLES (modèles) ---------- */
+.grids-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.grids-item {
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  background: #fafafa;
+  transition: transform 0.3s;
+}
+
+.grids-item:hover {
+  transform: scale(1.03);
+}
+
+.grids-item img {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* ---------- ACCORDÉON ---------- */
+.accordion {
+  background-color: #0077cc;
+  color: white;
+  cursor: pointer;
+  padding: 12px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  text-align: left;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.accordion:hover {
+  background-color: #005fa3;
+}
+
+/* ---------- FORMULAIRE ---------- */
+.commande-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f8f8f8;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.commande-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.order-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.order-form label {
+  font-weight: bold;
+  color: #444;
+}
+
+.order-form input,
+.order-form select,
+.order-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.order-form input:focus,
+.order-form select:focus,
+.order-form textarea:focus {
+  outline: none;
+  border-color: #f0c040;
+  box-shadow: 0 0 5px rgba(240,192,64,0.5);
+}
+
+.order-form button {
+  padding: 12px;
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.order-form button:hover {
+  background: #555;
+}
+
+/* Bouton WhatsApp */
+.whatsapp-btn {
+  display: inline-block;
+  padding: 10px 15px;
+  background: #25d366;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.whatsapp-btn:hover {
+  background: #1ebe5d;
+}
+
+/* ---------- COMPTEUR ---------- */
+.collectes {
+  min-height: 30vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.collectes h3 {
+  color: #f0c040;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media screen and (max-width: 768px) {
+  .navlinks {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+    text-align: center;
+    flex-direction: column;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+  }
+
+  .navlinks.mobile-menu {
+    max-height: 400px;
+  }
+
+  .navlinks ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .menu-hamburger {
+    display: block;
+  }
+
+  header {
+    height: 40vh;
+  }
+
+  .Bienvenues h1 {
+    font-size: 1.5rem;
+  }
+}
+/* Témoignages avec photos */
+.testimonial {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-style: italic;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.client-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 3px solid #f0c040;
+}
+
+.testimonial p {
+  margin: 10px 0;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.testimonial h4 {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+  font-style: normal;
+}
