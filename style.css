@@ -54,7 +54,7 @@ header {
 }
 
 .navlinks ul li a {
-  color: white;
+  color: black;
   transition: color 0.3s;
 }
 
