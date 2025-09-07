@@ -38,7 +38,7 @@ header {
 
 /* ---------- NAVBAR ---------- */
 .navbar {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   padding: 20px 30px;
@@ -46,6 +46,7 @@ header {
   justify-content: space-between;
   width: 100%;
   align-items: center;
+  z-index: 1000;
 }
 
 .navlinks ul {
