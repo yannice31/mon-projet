@@ -29,7 +29,7 @@ header {
 
 .Bienvenues h3 {
   position : absolute;
-  bottom: 5%;
+  bottom: -5%;
   top: 50%;
   left: 50%;
   transform: translate( -50%, -50%);
