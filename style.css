@@ -29,13 +29,13 @@ header {
 
 .Bienvenues h3 {
   position : absolute;
-  bottom: 45%;
+  bottom: 5%;
   top: 50%;
   left: 50%;
   transform: translate( -50%, -50%);
   color: #f0c040;
   text-align: center;
-  white-space: now-rap;
+  white-space: nowrap;
 }
 
 /* ---------- NAVBAR ---------- */
